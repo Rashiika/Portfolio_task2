@@ -143,3 +143,66 @@
     padding: 10px;;
     color: white;
 }
+.conn{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width:100%;
+    background-color: grey;
+    position: absolute;
+    align-items: center;
+   
+
+}
+.contact{
+    position: relative;
+    top:32rem;
+}
+.conhead{
+    font-size: 40px;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 40px;
+
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin: 20px;
+}
+#name{
+    width: 300px;
+    height: 35px;
+    border-radius: 8px;
+    padding: 5px;
+}
+#email{
+    width: 300px;
+    height: 35px;
+    border-radius: 8px;
+    padding: 5px;
+}
+#message{
+    width: 300px;
+    height: 100px;
+    border-radius: 8px;
+    padding: 5px;
+}
+.lab{
+    font-size: 20px;
+    font-weight: bold;
+}
+#btn{
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #1E1E2E;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+#btn:hover{
+    background-color: #F39C12;
+    cursor: pointer;
+}
